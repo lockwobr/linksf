@@ -2,11 +2,13 @@
 	
 # clean up
 
-sudo rm -rf /usr/share/nginx/htmlbuild/
-sudo rm -rf /usr/share/nginx/htmlimg/
-sudo rm -rf /usr/share/nginx/htmlindex
-sudo rm -rf /usr/share/nginx/htmlindex.html 
-sudo rm -rf /usr/share/nginx/htmladmin.html 
+sudo rm -rf /usr/share/nginx/html/build/
+sudo rm -rf /usr/share/nginx/html/img/
+sudo rm -rf /usr/share/nginx/html/index
+sudo rm -rf /usr/share/nginx/html/index.html 
+sudo rm -rf /usr/share/nginx/html/admin.html 
+sudo rm -rf usr/share/nginx/html/vendor/font
+
 
 #deploy
 
@@ -16,3 +18,5 @@ sudo cp ./admin.html  /usr/share/nginx/html
 sudo cp -R ./build/ /usr/share/nginx/html
 sudo cp -R ./img/ /usr/share/nginx/html
 
+mkdir -p  usr/share/nginx/html/font
+sudo cp -R ./vendor/font usr/share/nginx/html/font
