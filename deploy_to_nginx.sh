@@ -1,9 +1,5 @@
 #!/bin/sh
 
-
-
-sudo mv index.html index-old.html 
-
 sudo cp ./app/index.html /usr/share/nginx/html
 sudo cp ./admin/admin.html  /usr/share/nginx/html
 
