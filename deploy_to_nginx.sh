@@ -1,12 +1,12 @@
 #!/bin/sh
 
-cd /usr/share/nginx/html
+
 
 sudo mv index.html index-old.html 
 
-sudo cp ~/linksf/index.html .
-sudo cp ~/linksf/admin.html  .
+sudo cp ./index.html /usr/share/nginx/html
+sudo cp ./admin.html  /usr/share/nginx/html
 
-sudo cp -R ~/linksf/build/ .
-sudo cp -R ~/linksf/img/ .
+sudo cp -R ./build/ /usr/share/nginx/html
+sudo cp -R ./img/ /usr/share/nginx/html
 
