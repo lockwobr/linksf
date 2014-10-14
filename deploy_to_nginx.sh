@@ -19,5 +19,5 @@ sudo cp ./admin.html  /usr/share/nginx/html
 sudo cp -R ./build/ /usr/share/nginx/html
 sudo cp -R ./img/ /usr/share/nginx/html
 
-sudo mkdir -p  /usr/share/nginx/html/vender/font
-sudo cp -R ./vendor/font /usr/share/nginx/html/vender/font
+sudo mkdir -p  /usr/share/nginx/html/vender
+sudo cp -R ./vendor/font /usr/share/nginx/html/vender
