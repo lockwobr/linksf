@@ -8,7 +8,7 @@ sudo rm -rf /usr/share/nginx/html/index
 sudo rm -rf /usr/share/nginx/html/index.html 
 sudo rm -rf /usr/share/nginx/html/admin.html 
 
-sudo rm -rf usr/share/nginx/html/vendor
+sudo rm -rf /usr/share/nginx/html/vendor
 
 
 #deploy
@@ -20,4 +20,4 @@ sudo cp -R ./build/ /usr/share/nginx/html
 sudo cp -R ./img/ /usr/share/nginx/html
 
 sudo mkdir -p  /usr/share/nginx/html/vender/font
-sudo cp -R ./vendor/font /usr/share/nginx/html/fvender/ont
+sudo cp -R ./vendor/font /usr/share/nginx/html/vender/font
