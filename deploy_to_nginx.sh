@@ -2,11 +2,11 @@
 	
 # clean up
 
-sudo rm -rf build/
-sudo rm -rf img/
-sudo rm -rf index
-sudo rm -rf index.html 
-sudo rm -rf admin.html 
+sudo rm -rf /usr/share/nginx/htmlbuild/
+sudo rm -rf /usr/share/nginx/htmlimg/
+sudo rm -rf /usr/share/nginx/htmlindex
+sudo rm -rf /usr/share/nginx/htmlindex.html 
+sudo rm -rf /usr/share/nginx/htmladmin.html 
 
 #deploy
 
